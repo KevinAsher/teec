@@ -37,9 +37,8 @@ begin
   
   p_INPUT : process
   begin
-    -- w_RST <= '1';
-    wait for period;
-    w_START <= '1';
+    wait for period;    
+    w_START <= '1';
     wait for period;
     w_RST <= '0';
     w_START <= '0';
