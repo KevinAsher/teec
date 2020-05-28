@@ -1,0 +1,26 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity line_buffer is
+  port (
+    i_VALID : in std_logic;
+    i_PIX   : in std_logic_vector(7 downto 0);
+    
+    i_RSTN  : in std_logic;
+    i_CLK   : in std_logic;
+    
+    o_VALID : out std_logic;
+    o_PIX   : out std_logic_vector(7 downto 0)
+  );
+end entity;
+
+
+architecture arch of design is
+	
+begin
+
+
+	   
+    
+end architecture;

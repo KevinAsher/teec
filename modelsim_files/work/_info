@@ -1,0 +1,688 @@
+m255
+K3
+13
+cModel Technology
+dD:\programs\altera
+Econvolution_control
+Z0 w1590661273
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\Kevin\Desktop\facul\teeh\projects\modelsim_files
+Z4 8C:/Users/Kevin/Desktop/facul/teeh/projects/source/convolution_control.vhd
+Z5 FC:/Users/Kevin/Desktop/facul/teeh/projects/source/convolution_control.vhd
+l0
+L4
+VaIOPm:zde;<?N74EOcb4E0
+Z6 OV;C;10.1d;51
+33
+Z7 !s108 1590663791.490000
+Z8 !s90 -reportprogress|300|-work|work|-2008|-explicit|C:/Users/Kevin/Desktop/facul/teeh/projects/source/convolution_control.vhd|
+Z9 !s107 C:/Users/Kevin/Desktop/facul/teeh/projects/source/convolution_control.vhd|
+Z10 o-work work -2008 -explicit -O0
+Z11 tExplicit 1
+!s100 ?L<5Ldk=oQG`1KMO^`WS<0
+!i10b 1
+Artl
+R1
+R2
+Z12 DEx4 work 19 convolution_control 0 22 aIOPm:zde;<?N74EOcb4E0
+l34
+L24
+Vh;^PhdY039oQNnfSOYOWZ0
+R6
+33
+R7
+R8
+R9
+R10
+R11
+!s100 _0L8WS@^O405K5]zIA;hm0
+!i10b 1
+Econvolution_datapath
+Z13 w1590663770
+Z14 DPx4 work 29 pkg_ndim_shift_register_types 0 22 PM3K_ZWzd5n8;=DDhNdk>3
+Z15 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R1
+R2
+R3
+Z16 8C:/Users/Kevin/Desktop/facul/teeh/projects/source/convolution_datapath.vhd
+Z17 FC:/Users/Kevin/Desktop/facul/teeh/projects/source/convolution_datapath.vhd
+l0
+L6
+V3Pzj8zS;[83gOVUSlG=Wi1
+R6
+33
+Z18 !s108 1590663791.654000
+Z19 !s90 -reportprogress|300|-work|work|-2008|-explicit|C:/Users/Kevin/Desktop/facul/teeh/projects/source/convolution_datapath.vhd|
+Z20 !s107 C:/Users/Kevin/Desktop/facul/teeh/projects/source/convolution_datapath.vhd|
+R10
+R11
+!s100 _MWL=fW_bm6iL`n9FE4J=2
+!i10b 1
+Artl
+Z21 DEx4 work 11 line_buffer 0 22 zdJ?NlM8WNN:0jAjDP<>o0
+R14
+R15
+R1
+R2
+Z22 DEx4 work 20 convolution_datapath 0 22 3Pzj8zS;[83gOVUSlG=Wi1
+l33
+L26
+V8<cXiU_B;DgCFk[h7fR1V1
+R6
+33
+R18
+R19
+R20
+R10
+R11
+!s100 HWC6eAIaQgCdmUIiaLeVA3
+!i10b 1
+Econvolution_top
+Z23 w1590661295
+R14
+R15
+R1
+R2
+R3
+Z24 8C:/Users/Kevin/Desktop/facul/teeh/projects/source/convolution_top.vhd
+Z25 FC:/Users/Kevin/Desktop/facul/teeh/projects/source/convolution_top.vhd
+l0
+L6
+VZob3EKzQ2>I4[fQmo]hOf0
+!s100 G5Gfm=T_g`cQoIbLhT1]c1
+R6
+33
+!i10b 1
+Z26 !s108 1590663791.843000
+Z27 !s90 -reportprogress|300|-work|work|-2008|-explicit|C:/Users/Kevin/Desktop/facul/teeh/projects/source/convolution_top.vhd|
+Z28 !s107 C:/Users/Kevin/Desktop/facul/teeh/projects/source/convolution_top.vhd|
+R10
+R11
+Artl
+R22
+R12
+R14
+R15
+R1
+R2
+Z29 DEx4 work 15 convolution_top 0 22 Zob3EKzQ2>I4[fQmo]hOf0
+l32
+L21
+Z30 VJ3W:cB]R^EF0D1`h7LE0S2
+Z31 !s100 JS2U@5H_]JnEPm_XmDZh90
+R6
+33
+!i10b 1
+R26
+R27
+R28
+R10
+R11
+Edesign
+Z32 w1590619045
+R15
+R1
+R2
+R3
+Z33 8C:/Users/Kevin/Desktop/facul/teeh/projects/source/design.vhd
+Z34 FC:/Users/Kevin/Desktop/facul/teeh/projects/source/design.vhd
+l0
+L5
+V];>9=Z;3@AlzH[[?FmV`10
+R6
+32
+Z35 !s108 1590663787.620000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Kevin/Desktop/facul/teeh/projects/source/design.vhd|
+Z37 !s107 C:/Users/Kevin/Desktop/facul/teeh/projects/source/design.vhd|
+Z38 o-work work -2002 -explicit -O0
+R11
+!s100 XT@C6gg88GeI6caT6UzG[0
+!i10b 1
+Aarch
+R15
+R1
+R2
+DEx4 work 6 design 0 22 ];>9=Z;3@AlzH[[?FmV`10
+l32
+L19
+V<PAK]>1H8`=l`ze53[aYd0
+R6
+32
+R35
+R36
+R37
+R38
+R11
+!s100 R^PRG6>Wda@kicc[WWWil1
+!i10b 1
+Edesign_top
+Z39 w1590619154
+R15
+R1
+R2
+R3
+Z40 8C:/Users/Kevin/Desktop/facul/teeh/projects/source/design_top.vhd
+Z41 FC:/Users/Kevin/Desktop/facul/teeh/projects/source/design_top.vhd
+l0
+L5
+VHI>V:[SO6aQi;J[1`<A;?3
+R6
+33
+Z42 !s108 1590663789.169000
+Z43 !s90 -reportprogress|300|-work|work|-2008|-explicit|C:/Users/Kevin/Desktop/facul/teeh/projects/source/design_top.vhd|
+Z44 !s107 C:/Users/Kevin/Desktop/facul/teeh/projects/source/design_top.vhd|
+R10
+R11
+!s100 VY]6Me_3kl@l_mbzcG2:n1
+!i10b 1
+Aarch
+Z45 DEx4 work 7 somador 0 22 2oocP14PKO^G?3aokRg3;3
+Z46 DEx4 work 13 multiplicador 0 22 ?PfzSB`@7`R=506nM;4Nb2
+R15
+R1
+R2
+Z47 DEx4 work 10 design_top 0 22 HI>V:[SO6aQi;J[1`<A;?3
+l32
+L19
+VCQ:?VKXoLa;k=G4=Y9m3<0
+R6
+33
+R42
+R43
+R44
+R10
+R11
+!s100 V>Gf^3MZYQmEU@E^eQ<PZ2
+!i10b 1
+Efull_adder
+Z48 w1590583242
+R15
+R1
+R2
+R3
+Z49 8C:/Users/Kevin/Desktop/facul/teeh/projects/source/full_adder.vhd
+Z50 FC:/Users/Kevin/Desktop/facul/teeh/projects/source/full_adder.vhd
+l0
+L5
+VPDN_[1<5[R0J[>YVQIVIo1
+R6
+32
+Z51 !s108 1590663787.732000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Kevin/Desktop/facul/teeh/projects/source/full_adder.vhd|
+Z53 !s107 C:/Users/Kevin/Desktop/facul/teeh/projects/source/full_adder.vhd|
+R38
+R11
+!s100 Q4n?VLTSWBL>]02_M=SJ;3
+!i10b 1
+Aarch
+R15
+R1
+R2
+Z54 DEx4 work 10 full_adder 0 22 PDN_[1<5[R0J[>YVQIVIo1
+l19
+L18
+VAz6l`eCT8;T99Yc8m>I4c2
+R6
+32
+R51
+R52
+R53
+R38
+R11
+!s100 G^OVU66Ui?8]J7zIZR0PW0
+!i10b 1
+Eline_buffer
+Z55 w1590627753
+R14
+R15
+R1
+R2
+R3
+Z56 8C:/Users/Kevin/Desktop/facul/teeh/projects/source/line_buffer.vhd
+Z57 FC:/Users/Kevin/Desktop/facul/teeh/projects/source/line_buffer.vhd
+l0
+L6
+VzdJ?NlM8WNN:0jAjDP<>o0
+R6
+32
+Z58 !s108 1590663787.924000
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Kevin/Desktop/facul/teeh/projects/source/line_buffer.vhd|
+Z60 !s107 C:/Users/Kevin/Desktop/facul/teeh/projects/source/line_buffer.vhd|
+R38
+R11
+!s100 l[N7^V3z^hI3b6Wd55N5W0
+!i10b 1
+Aarch
+Z61 DEx4 work 19 ndim_shift_register 0 22 ^_ESm2k^GZJElam^<`mUU0
+R14
+R15
+R1
+R2
+R21
+l20
+L16
+VOCalkYKI2XNdk5hmif2i10
+R6
+32
+R58
+R59
+R60
+R38
+R11
+!s100 Zi8K7dB`USTJY5O4]agdO0
+!i10b 1
+Eline_buffer_datapath
+R48
+R15
+R1
+R2
+R3
+Z62 8C:/Users/Kevin/Desktop/facul/teeh/projects/source/line_buffer_datapath.vhd
+Z63 FC:/Users/Kevin/Desktop/facul/teeh/projects/source/line_buffer_datapath.vhd
+l0
+L5
+V4j;o9fWH7G^h3[i^Qn[473
+R6
+32
+Z64 !s108 1590659817.584000
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Kevin/Desktop/facul/teeh/projects/source/line_buffer_datapath.vhd|
+Z66 !s107 C:/Users/Kevin/Desktop/facul/teeh/projects/source/line_buffer_datapath.vhd|
+R38
+R11
+!s100 CFgKh<I34<VfTS4H@>ZW81
+!i10b 1
+Aarch
+R15
+R1
+R2
+DEx4 work 20 line_buffer_datapath 0 22 4j;o9fWH7G^h3[i^Qn[473
+l23
+L21
+V_DDgaiznf;1PVBTT>FZcI2
+R6
+32
+R64
+R65
+R66
+R38
+R11
+!s100 @fX^2:REK8@ig1amQ4dLJ1
+!i10b 1
+Emult_cell
+Z67 w1590621104
+R15
+R1
+R2
+R3
+Z68 8C:/Users/Kevin/Desktop/facul/teeh/projects/source/mult_cell.vhd
+Z69 FC:/Users/Kevin/Desktop/facul/teeh/projects/source/mult_cell.vhd
+l0
+L5
+Vk3fTH5hSoC0N4MQ_dHNU_1
+R6
+32
+Z70 !s108 1590663788.097000
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Kevin/Desktop/facul/teeh/projects/source/mult_cell.vhd|
+Z72 !s107 C:/Users/Kevin/Desktop/facul/teeh/projects/source/mult_cell.vhd|
+R38
+R11
+!s100 8jNKmY=aAog?4>[neFdMM2
+!i10b 1
+Aarch
+R54
+R15
+R1
+R2
+Z73 DEx4 work 9 mult_cell 0 22 k3fTH5hSoC0N4MQ_dHNU_1
+l26
+L24
+Ve`h>5^g@N9b6bz_dFAlM12
+R6
+32
+R70
+R71
+R72
+R38
+R11
+!s100 KOInPSFl=kHNjV:fJlWfG1
+!i10b 1
+Emultiplicador
+R48
+R15
+R1
+R2
+R3
+Z74 8C:/Users/Kevin/Desktop/facul/teeh/projects/source/multiplicador.vhd
+Z75 FC:/Users/Kevin/Desktop/facul/teeh/projects/source/multiplicador.vhd
+l0
+L5
+V?PfzSB`@7`R=506nM;4Nb2
+R6
+32
+Z76 !s108 1590663788.246000
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Kevin/Desktop/facul/teeh/projects/source/multiplicador.vhd|
+Z78 !s107 C:/Users/Kevin/Desktop/facul/teeh/projects/source/multiplicador.vhd|
+R38
+R11
+!s100 mLkgUHV8TN9S7H4`?mj>O1
+!i10b 1
+Aarch
+R73
+R15
+R1
+R2
+R46
+l21
+L15
+VEjYnVDJo22eM_4B[MHMOz1
+R6
+32
+R76
+R77
+R78
+R38
+R11
+!s100 mSTk[dVORFEjeSBbV^f6Z2
+!i10b 1
+Endim_shift_register
+Z79 w1590621846
+R15
+R14
+R1
+R2
+R3
+Z80 8C:/Users/Kevin/Desktop/facul/teeh/projects/source/ndim_shift_register.vhd
+Z81 FC:/Users/Kevin/Desktop/facul/teeh/projects/source/ndim_shift_register.vhd
+l0
+L13
+V^_ESm2k^GZJElam^<`mUU0
+R6
+32
+Z82 !s108 1590663788.390000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Kevin/Desktop/facul/teeh/projects/source/ndim_shift_register.vhd|
+Z84 !s107 C:/Users/Kevin/Desktop/facul/teeh/projects/source/ndim_shift_register.vhd|
+R38
+R11
+!s100 _?BYCg_]9FC[DHANz>?eI2
+!i10b 1
+Aarch
+R15
+R14
+R1
+R2
+R61
+l25
+L23
+V3mdGzP75fSjDhjG=@j0df1
+R6
+32
+R82
+R83
+R84
+R38
+R11
+!s100 6QPa1gnVDnN7Z7OSMQQaB1
+!i10b 1
+Ppkg
+R15
+R1
+R2
+Z85 w1590615578
+R3
+R80
+R81
+l0
+L5
+Vmf8[nN9OToT@JVS^_G8T82
+R6
+32
+Z86 !s108 1590621309.908000
+R83
+R84
+R38
+R11
+!s100 zgHIS;9^Y9`OYCz8:83N83
+!i10b 1
+Bbody
+DPx4 work 3 pkg 0 22 mf8[nN9OToT@JVS^_G8T82
+R15
+R1
+R2
+l0
+L9
+V50TQcPhJZDB^CX;?;n<CC1
+R6
+32
+R86
+R83
+R84
+R38
+R11
+nbody
+!s100 JZiI;U^SF[1?6?0hB@7MN1
+!i10b 1
+Ppkg_ndim_shift_register_types
+R15
+R1
+R2
+R79
+R3
+R80
+R81
+l0
+L5
+VPM3K_ZWzd5n8;=DDhNdk>3
+R6
+32
+R82
+R83
+R84
+R38
+R11
+!s100 M;bcOfKll@@bV:2VFiCM@1
+!i10b 1
+Esomador
+R48
+R15
+R1
+R2
+R3
+Z87 8C:/Users/Kevin/Desktop/facul/teeh/projects/source/somador.vhd
+Z88 FC:/Users/Kevin/Desktop/facul/teeh/projects/source/somador.vhd
+l0
+L5
+V2oocP14PKO^G?3aokRg3;3
+R6
+32
+Z89 !s108 1590663788.590000
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Kevin/Desktop/facul/teeh/projects/source/somador.vhd|
+Z91 !s107 C:/Users/Kevin/Desktop/facul/teeh/projects/source/somador.vhd|
+R38
+R11
+!s100 2Kg_eXgCFL0I8=B9fDol10
+!i10b 1
+Aarch
+R54
+R15
+R1
+R2
+R45
+l19
+L16
+V?l?_8dPz0?zeR;CD<c^?a2
+R6
+32
+R89
+R90
+R91
+R38
+R11
+!s100 ?:TfTP_9e19_7XWTg:5Y]1
+!i10b 1
+Etestbench
+Z92 w1590619456
+Z93 DPx4 ieee 16 std_logic_textio 0 22 ?Il0a149GV276[?[UMDWh2
+R15
+R1
+R2
+R3
+Z94 8C:/Users/Kevin/Desktop/facul/teeh/projects/testbench/testbench.vhd
+Z95 FC:/Users/Kevin/Desktop/facul/teeh/projects/testbench/testbench.vhd
+l0
+L9
+VG2IKk;VZd`CcL=l[CU?g42
+R6
+33
+Z96 !s108 1590663788.738000
+Z97 !s90 -reportprogress|300|-work|work|-2008|-explicit|C:/Users/Kevin/Desktop/facul/teeh/projects/testbench/testbench.vhd|
+Z98 !s107 C:/Users/Kevin/Desktop/facul/teeh/projects/testbench/testbench.vhd|
+R10
+R11
+!s100 Uj;92ZTYTXDe1I35f9KHm1
+!i10b 1
+Aarch
+R47
+R93
+R15
+R1
+R2
+DEx4 work 9 testbench 0 22 G2IKk;VZd`CcL=l[CU?g42
+l25
+L12
+Vi:blMTKL0GOndP;V9H7cY1
+R6
+33
+R96
+R97
+R98
+R10
+R11
+!s100 K]=VnV;AL?FI887AkadAX2
+!i10b 1
+Etestbench_convolution
+Z99 w1590662634
+R14
+R93
+R15
+R1
+R2
+R3
+Z100 8C:/Users/Kevin/Desktop/facul/teeh/projects/testbench/testbench_convolution.vhd
+Z101 FC:/Users/Kevin/Desktop/facul/teeh/projects/testbench/testbench_convolution.vhd
+l0
+L11
+VNFnHQzlHoCYWZAIfH4?SA0
+R6
+33
+Z102 !s108 1590663791.209000
+Z103 !s90 -reportprogress|300|-work|work|-2008|-explicit|C:/Users/Kevin/Desktop/facul/teeh/projects/testbench/testbench_convolution.vhd|
+Z104 !s107 C:/Users/Kevin/Desktop/facul/teeh/projects/testbench/testbench_convolution.vhd|
+R10
+R11
+!s100 PIEk_B[eD`7NXz:G=ozcN2
+!i10b 1
+Aarch
+R29
+R14
+R93
+R15
+R1
+R2
+DEx4 work 21 testbench_convolution 0 22 NFnHQzlHoCYWZAIfH4?SA0
+l32
+L14
+VbYHgHz7PKCZg01G0ZQ2[o3
+R6
+33
+R102
+R103
+R104
+R10
+R11
+!s100 ^AQkg[ZK_]CTM=A`5eNag2
+!i10b 1
+Etestbench_line_buffer
+Z105 w1590631713
+R14
+R93
+R15
+R1
+R2
+R3
+Z106 8C:/Users/Kevin/Desktop/facul/teeh/projects/testbench/testbench_line_buffer.vhd
+Z107 FC:/Users/Kevin/Desktop/facul/teeh/projects/testbench/testbench_line_buffer.vhd
+l0
+L11
+V8nzPO2RB9EH]63;44j^Gc2
+R6
+33
+Z108 !s108 1590663790.740000
+Z109 !s90 -reportprogress|300|-work|work|-2008|-explicit|C:/Users/Kevin/Desktop/facul/teeh/projects/testbench/testbench_line_buffer.vhd|
+Z110 !s107 C:/Users/Kevin/Desktop/facul/teeh/projects/testbench/testbench_line_buffer.vhd|
+R10
+R11
+!s100 Oe23zSZ=bPCz?VNa=JQLY0
+!i10b 1
+Aarch
+R21
+R14
+R93
+R15
+R1
+R2
+DEx4 work 21 testbench_line_buffer 0 22 8nzPO2RB9EH]63;44j^Gc2
+l29
+L14
+VHLb;zgJ?Hz73VoDmJNhQK2
+R6
+33
+R108
+R109
+R110
+R10
+R11
+!s100 ^7gI:WIfn<VIC5VWB1jRF1
+!i10b 1
+Etestbench_ndim_shift_register
+Z111 w1590622282
+R14
+R93
+R15
+R1
+R2
+R3
+Z112 8C:/Users/Kevin/Desktop/facul/teeh/projects/testbench/testbench_ndim_shift_register.vhd
+Z113 FC:/Users/Kevin/Desktop/facul/teeh/projects/testbench/testbench_ndim_shift_register.vhd
+l0
+L11
+VL004;m:jPCRR:H0DW=9Be3
+R6
+33
+Z114 !s108 1590663789.821000
+Z115 !s90 -reportprogress|300|-work|work|-2008|-explicit|C:/Users/Kevin/Desktop/facul/teeh/projects/testbench/testbench_ndim_shift_register.vhd|
+Z116 !s107 C:/Users/Kevin/Desktop/facul/teeh/projects/testbench/testbench_ndim_shift_register.vhd|
+R10
+R11
+!s100 eMl2]]QF9JV=m9IGeF9Fj1
+!i10b 1
+Aarch
+R61
+R14
+R93
+R15
+R1
+R2
+DEx4 work 29 testbench_ndim_shift_register 0 22 L004;m:jPCRR:H0DW=9Be3
+l28
+L14
+V=cj?4BV_@_GAz;2bYRj9C3
+R6
+33
+R114
+R115
+R116
+R10
+R11
+!s100 AY3GYF_IO=e@0^[]70OjI2
+!i10b 1
