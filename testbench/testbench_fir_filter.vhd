@@ -25,20 +25,34 @@ architecture arch of testbench_fir_filter is
   signal w_VALID_PIX: std_logic;
   constant c_WINDOW_SIZE : integer := 3;
   signal w_KERNEL : t_SHIFT_REGISTER(c_WINDOW_SIZE*c_WINDOW_SIZE-1 downto 0) := (
+    -- Kernels from https://en.wikipedia.org/wiki/Kernel_(image_processing)
     -- Box Blur
     -- X"01", X"01", X"01",
     -- X"01", X"01", X"01",
     -- X"01", X"01", X"01"
 
     -- Edge Dectection
-    X"FF", X"FF", X"FF",
-    X"FF", X"08", X"FF",
-    X"FF", X"FF", X"FF"
+    -- X"FF", X"FF", X"FF",
+    -- X"FF", X"08", X"FF",
+    -- X"FF", X"FF", X"FF"
 
     -- Edge Dectection
-    -- X"01", X"00", X"FF",
-    -- X"00", X"00", X"00",
-    -- X"FF", X"00", X"01"
+    X"01", X"00", X"FF",
+    X"00", X"00", X"00",
+    X"FF", X"00", X"01"
+
+    -- Gaussian blur
+    -- X"01", X"02", X"01",
+    -- X"02", X"04", X"02",
+    -- X"01", X"02", X"01"
+    
+    -- Gaussian blur
+    -- X"01", X"04", X"06", X"04", X"01", 
+    -- X"04", X"10", X"18", X"10", X"04", 
+    -- X"06", X"18", X"24", X"18", X"06",
+    -- X"04", X"10", X"18", X"10", X"04",
+    -- X"01", X"04", X"06", X"04", X"01" 
+
   );
 
   signal w_DIV_FACTOR : signed (15 downto 0) := X"0001";
@@ -105,7 +119,7 @@ begin
   end process;
 
   design_inst : entity work.fir_filter
-  generic map (WINDOW_SIZE => 3, IMAGE_SIZE => 100)
+  generic map (WINDOW_SIZE => c_WINDOW_SIZE, IMAGE_SIZE => 100)
   port map (
     i_CLK   => w_CLK,
     i_RST  => w_RST,

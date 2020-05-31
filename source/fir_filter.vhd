@@ -26,7 +26,7 @@ architecture rtl of fir_filter is
   -- TODO: ver o tamanho realmente necessário para a soma acumulada e divisão.
   constant c_ACC_SIZE : integer := 8 + WINDOW_SIZE*WINDOW_SIZE;
   
-  type t_SHIFT_REGISTER_MULT_RESULT is array (natural range <>) of std_logic_vector(c_ACC_SIZE downto 0);
+  type t_SHIFT_REGISTER_MULT_RESULT is array (natural range <>) of std_logic_vector(17 downto 0);
   type t_SHIFT_REGISTER_ADDERS_RESULT is array (natural range <>) of std_logic_vector(c_ACC_SIZE downto 0);
   
   
