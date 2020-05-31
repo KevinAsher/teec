@@ -34,9 +34,14 @@ architecture arch of testbench_fir_filter is
     X"FF", X"FF", X"FF",
     X"FF", X"08", X"FF",
     X"FF", X"FF", X"FF"
+
+    -- Edge Dectection
+    -- X"01", X"00", X"FF",
+    -- X"00", X"00", X"00",
+    -- X"FF", X"00", X"01"
   );
 
-  signal w_DIV_FACTOR : unsigned (15 downto 0) := X"0009";
+  signal w_DIV_FACTOR : signed (15 downto 0) := X"0001";
 
   signal w_START : std_logic;
   signal w_CLK : std_logic := '1';
@@ -47,57 +52,57 @@ begin
   w_RST <= '1' after period/2;
 
   
-   p_INPUT : process
-    begin
-      wait for period;    
-      w_START <= '1';
-      wait for period;
-      w_RST <= '0';
-      w_START <= '0';
-      wait for period;
-      for i in 1 to 30 loop
-        w_PIX_IN <= std_logic_vector(to_unsigned(i, w_PIX_IN'length));
-        wait for period;
-      end loop;
-      wait;
-    end process;
-
-  -- p_INPUT : process
-  --   variable v_LINE : line;
-  --   variable v_DATA : std_logic_vector(7 downto 0);
-  -- begin
-  --   wait for period;    
-  --   w_START <= '1';
-  --   wait for period;
-  --   w_RST <= '0';
-  --   w_START <= '0';
-  --   wait for period;
-  --   file_open(f_FILE_IN, "img.dat", READ_MODE);
-  --   while not endfile(f_FILE_IN) loop
-  --     readline(f_FILE_IN, v_LINE);
-  --     read(v_LINE, v_DATA);
-  --     w_PIX_IN <= v_DATA;
+  --  p_INPUT : process
+  --   begin
+  --     wait for period;    
+  --     w_START <= '1';
   --     wait for period;
-  --   end loop;
-  --   wait for period;
-  --   w_RST <= '1';
-  --   wait;
-  -- end process;
+  --     w_RST <= '0';
+  --     w_START <= '0';
+  --     wait for period;
+  --     for i in 1 to 30 loop
+  --       w_PIX_IN <= std_logic_vector(to_unsigned(i, w_PIX_IN'length));
+  --       wait for period;
+  --     end loop;
+  --     wait;
+  --   end process;
 
-  -- p_RESULT : process
-  --   variable v_LINE : line;
-  -- begin
-  --   file_open(f_FILE_OUT, "img_out.dat", WRITE_MODE);
+  p_INPUT : process
+    variable v_LINE : line;
+    variable v_DATA : std_logic_vector(7 downto 0);
+  begin
+    wait for period;    
+    w_START <= '1';
+    wait for period;
+    w_RST <= '0';
+    w_START <= '0';
+    wait for period;
+    file_open(f_FILE_IN, "img.dat", READ_MODE);
+    while not endfile(f_FILE_IN) loop
+      readline(f_FILE_IN, v_LINE);
+      read(v_LINE, v_DATA);
+      w_PIX_IN <= v_DATA;
+      wait for period;
+    end loop;
+    wait for period;
+    w_RST <= '1';
+    wait;
+  end process;
+
+  p_RESULT : process
+    variable v_LINE : line;
+  begin
+    file_open(f_FILE_OUT, "img_out.dat", WRITE_MODE);
     
-  --   while true loop
-  --     wait until rising_edge(w_CLK);
-  --     if w_VALID_PIX = '1' then
-  --       write(v_LINE, w_PIX_OUT);
-  --       writeline(f_FILE_OUT, v_LINE);
-  --     end if;
-  --   end loop;
-  --   wait;
-  -- end process;
+    while true loop
+      wait until rising_edge(w_CLK);
+      if w_VALID_PIX = '1' then
+        write(v_LINE, w_PIX_OUT);
+        writeline(f_FILE_OUT, v_LINE);
+      end if;
+    end loop;
+    wait;
+  end process;
 
   design_inst : entity work.fir_filter
   generic map (WINDOW_SIZE => 3, IMAGE_SIZE => 100)

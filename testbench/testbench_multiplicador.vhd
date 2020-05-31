@@ -47,33 +47,42 @@ begin
     -- *
     -- *******************************
     
-    w_A <= X"3"; w_B <= X"3";
-    wait for 1 ns;
-    assert(w_M=X"09") report "Fail 3/3" & " got " & to_hstring(w_M) 		severity error;
+    -- w_A <= X"3"; w_B <= X"3";
+    -- wait for 1 ns;
+    -- assert(w_M=X"09") report "Fail 3/3" & " got " & to_hstring(w_M) 		severity error;
     
-    w_A <= X"2"; w_B <= X"2";
-    wait for 1 ns;
-    assert(w_M=X"04") report "Fail 2/2" & " got " & to_hstring(w_M) 		severity error;
+    -- w_A <= X"2"; w_B <= X"2";
+    -- wait for 1 ns;
+    -- assert(w_M=X"04") report "Fail 2/2" & " got " & to_hstring(w_M) 		severity error;
     
-    w_A <= X"9"; w_B <= X"9";
-    wait for 1 ns;
-    assert(w_M=X"51") report "Fail 9/9" & " got " & to_hstring(w_M) 		severity error;
+    -- w_A <= X"9"; w_B <= X"9";
+    -- wait for 1 ns;
+    -- assert(w_M=X"51") report "Fail 9/9" & " got " & to_hstring(w_M) 		severity error;
     
-    w_A <= X"F"; w_B <= X"F";
+    -- (1 * -1) = -1
+    w_A <= X"1"; w_B <= X"F";
     wait for 1 ns;
-    assert(w_M=X"E1") report "Fail 15/15" & " got " & to_hstring(w_M) 		severity error;
+    assert(w_M=X"FF") report "Fail 1/-1" & " got " & to_hstring(w_M) 		severity error;
+
+    -- (-4 * 3) = -12
+    w_A <= X"C"; w_B <= X"3";
+    wait for 1 ns;
+    assert(w_M=X"F4") report "Fail -4/3" & " got " & to_hstring(w_M) 		severity error;
     
     -- *******************************
     -- * Tests for 8 bit multiplier
     -- *
     -- *******************************
     
-    
-    w_A_8 <= X"33"; w_B_8 <= X"33";
+    -- (-1 * 1) = -1
+    w_A_8 <= X"FF"; w_B_8 <= X"01";
     wait for 1 ns;
-    assert(w_M_16=X"A29") report "Fail 33/33" & " got " & to_hstring(w_M_16) 		severity error;
+    assert(w_M_16=X"FFFF") report "Fail -1/1" & " got " & to_hstring(w_M_16) 		severity error;
     
-
+    -- (-4 * 3) = -12
+    w_A_8 <= B"1111_1100"; w_B_8 <= X"03";
+    wait for 1 ns;
+    assert(w_M_16=B"1111_1111_1111_0100") report "Fail -4/3" & " got " & to_hstring(w_M_16) 		severity error;
     
     assert false report "Test done." severity note;
     wait;
